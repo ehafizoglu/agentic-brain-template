@@ -41,11 +41,19 @@ Welcome to the central command hub of **PROJECT_NAME**. This workspace is struct
 
 ---
 
-## 🤖 AI Integration Guide (Read Me)
-To feed this entire project to another AI in one single action:
-1. Run the compilation script from your terminal:
+## 🤖 AI Integration & Scaffolding Guide
+
+### 🚀 Starting a New Project (Yeni Proje Başlatma)
+Eğer bu klasörü başka bir projede şablon olarak kopyaladıysanız, yeni projeyi otomatik yapılandırmak için terminalinizde şu komutu çalıştırın:
+```bash
+python scripts/init_project.py
+```
+*Bu betik; proje adını ve geliştirici ismini şablonlardaki yerlerine otomatik olarak yazar, eski git geçmişini temizler ve ilk derlemeyi tetikler.*
+
+### 📦 Başka Bir Yapay Zekaya Aktarma (Tek Kalemde)
+Yapay zekanın tüm dökümantasyonu tek seferde okumasını sağlamak için:
+1. Derleme betiğini çalıştırın:
    ```bash
    python scripts/bundle_ai_context.py
    ```
-2. This creates `ai_context_merged.md` at the project root.
-3. Drag-and-drop or upload `ai_context_merged.md` into the target AI chat. It will instantly understand your entire project architecture, requirements, and codebase status.
+2. Oluşan `ai_context_merged.md` dosyasını hedef AI chat ekranına sürükleyip bırakın. Birleştirilmiş dosya, kural setlerini en tepede barındırarak yapay zekayı doğrudan eğitir.
