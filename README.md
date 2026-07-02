@@ -1,5 +1,7 @@
 # 🧠 Agentic Brain Framework (ABF)
 
+* 🇹🇷 [Türkçe Kullanım Kılavuzu için buraya tıklayın](README_TR.md)
+
 An enterprise-grade, Obsidian-compatible scaffolding template designed to optimize communication with AI Agents (Claude Code, Cursor, ChatGPT, Claude) while preventing "vibe coding" through disciplined, structured engineering vaults.
 
 ---
