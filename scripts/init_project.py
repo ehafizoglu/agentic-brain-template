@@ -22,6 +22,7 @@ def main():
         "README.md",
         "README_TR.md",
         "docs/00_Core/Project_Hub.md",
+        "docs/00_Core/SOUL.md",
         "docs/01_Analyst/business_requirements.md",
         "docs/02_Architect/system_architecture.md",
         "docs/02_Architect/security_guidelines.md",

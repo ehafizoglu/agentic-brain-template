@@ -48,6 +48,7 @@ Simply drag-and-drop or upload this file into your AI chat window.
 ├── 📂 docs/                             # Obsidian Documentation Vault
 │   ├── 📓 00_Core/                      # Core configuration and ADRs
 │   │   ├── 📄 Project_Hub.md            # Map of Content (MOC) Dashboard
+│   │   ├── 📄 SOUL.md                   # AI Agent persona constitution & guardrails
 │   │   └── 📂 ADRs/                     # Architectural Decision Records ledger
 │   ├── 📘 01_Analyst/                   # Business analyst requirements
 │   │   └── 📄 business_requirements.md  # Vision, Scope, Features, User Stories

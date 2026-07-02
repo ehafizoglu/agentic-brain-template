@@ -20,15 +20,25 @@ This file represents the short-term working memory of the engineering team. It t
 ---
 
 ## 🛠️ Active Tasks & Assigned Files
-- **Task**: Upgrade the documentation compiler script to auto-generate pre-prompted AI context.
+- **Task**: Initial scaffolding and role integration for PROJECT_NAME.
 - **Assigned Files**:
   - `CLAUDE.md` (System rulebook)
-  - `scripts/bundle_ai_context.ps1` (Compiler script)
   - `docs/05_Memory/active_context.md` (This file)
 
 ---
 
+## ⚡ Recent Decisions & Changes
+*   **Refactor**: Separated design principles and engineering principles into individual files.
+*   **Feat**: Added Product Manager, DevOps, and UI/UX Designer role folders and guidelines.
+*   **Feat**: Added the AI Agent Constitution (`SOUL.md`) to define cognitive behaviors and guardrails.
+
+---
+
+## 🚧 Current Blockers & Open Questions
+- None. System is successfully configured.
+
+---
+
 ## 📍 Next Steps
-1. Finish implementing the upgraded `scripts/bundle_ai_context.ps1` script.
-2. Run the compiler script to generate the combined `ai_context_merged.md`.
-3. Provide the user with the final walkthrough and instructions on how to use it.
+1. Push the final template structures to GitHub.
+2. Initialize a new project directory to verify the bootstrapper and context compiler.

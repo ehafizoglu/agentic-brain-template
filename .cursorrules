@@ -55,8 +55,10 @@ Before writing any implementation code:
 ---
 
 ## 📁 Obsidian & Vault Integration
-*   The `docs/` folder is an Obsidian Vault.
-*   **Active Tasks**: You must keep `docs/03_Developer/task_board.md` synchronized with your current progress.
+*   The `docs/` folder is designed to be opened directly in Obsidian as a vault.
+*   **Agent Persona**: You must read and strictly align with the AI Agent Constitution defined in `docs/00_Core/SOUL.md`.
+*   Internal links between markdown files use double brackets (e.g. `[[Project_Hub]]`).
+*   The `docs/05_Memory/active_context.md` file acts as your active working memory and must be updated at the end of each session.
 *   **Memory Bank**: When you encounter a major bug or config issue, document the root cause and solution in `docs/05_Memory/lessons_learned.md`.
 
 ---

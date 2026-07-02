@@ -48,6 +48,7 @@ Oluşan bu dosyayı yapay zekanın mesaj kutusuna sürükleyip bırakmanız yete
 ├── 📂 docs/                             # Obsidian Dokümantasyon Kasası (Vault)
 │   ├── 📓 00_Core/                      # Core yapılandırma ve ADR'ler
 │   │   ├── 📄 Project_Hub.md            # Ana Bağlantı Haritası (MOC Dashboard)
+│   │   ├── 📄 SOUL.md                   # Yapay zeka anayasası ve kişilik rehberi
 │   │   └── 📂 ADRs/                     # Mimari Karar Defteri (ADR Ledger)
 │   ├── 📘 01_Analyst/                   # İş analisti gereksinimleri
 │   │   └── 📄 business_requirements.md  # Kapsam, Moscow Öncelikleri, Kullanıcı Hikayeleri

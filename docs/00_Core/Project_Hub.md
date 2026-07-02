@@ -40,6 +40,7 @@ Welcome to the central command hub of **PROJECT_NAME**. This workspace is struct
 ## 🧠 Brain Vault & ADR Ledger
 
 *   **Architectural Decisions**: [[ADR-000-Template]] – Log of technical decisions.
+*   **AI Agent Persona (SOUL)**: [[SOUL]] – Cognitive constitution, behavioral blueprints, and ethical guardrails.
 *   **Secure Coding Guidelines**: [[security_guidelines]] – OWASP & CWE secure coding compliance rules.
 *   **Design Principles**: [[design_principles]] – SOLID, DRY/KISS, and layered architecture conventions.
 *   **Engineering & System Principles**: [[engineering_principles]] – Standards for error handling, structured logging, database scaling, and caching.
