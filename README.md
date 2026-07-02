@@ -6,28 +6,28 @@ An enterprise-grade, Obsidian-compatible scaffolding template designed to optimi
 
 ---
 
-## 🚀 Quick Start (Hızlı Başlangıç)
+## 🚀 Quick Start
 
-### Step 1: Clone or Copy (Şablonu Kopyalayın)
+### Step 1: Clone or Copy
 Clone this repository to your local machine:
 ```bash
 git clone https://github.com/ehafizoglu/agentic-brain-template.git my-new-project
 cd my-new-project
 ```
 
-### Step 2: Initialize (Projeyi Başlatın)
+### Step 2: Initialize
 Run the bootstrapper script to customize the templates, clean legacy git histories, and set up your new project variables:
 ```bash
 python scripts/init_project.py
 ```
 *This script will ask you for your **Project Name** and **Developer Name**, automatically replace the template placeholders, reset git history, and build your initial AI context.*
 
-### Step 3: Open in Obsidian (Obsidian'da Açın)
+### Step 3: Open in Obsidian
 Open **Obsidian** and click **"Open folder as vault"**, then select the `docs` directory. This keeps your note interface clean from source code.
 
 ---
 
-## 🤖 Feeding Context to Other AIs (Tek Kalemde Aktarım)
+## 🤖 Feeding Context to Other AIs
 
 If you are using ChatGPT, Claude Web, or another AI chat interface and want to onboard the AI to your project in one step, run the documentation compiler:
 
@@ -69,7 +69,7 @@ Simply drag-and-drop or upload this file into your AI chat window.
 
 ---
 
-## ❌ The Anti-Vibe-Coding Rules (Anti-Vibe-Coding Kuralları)
+## ❌ The Anti-Vibe-Coding Rules
 
 To maintain disciplined software engineering, this template enforces the following cognitive rules inside `CLAUDE.md`:
 
