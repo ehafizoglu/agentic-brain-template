@@ -1,0 +1,50 @@
+# 🤖 CLAUDE.md: AI Engineering Rules & Project Guidelines
+
+This file is the global source of truth for any AI developer working in this repository. Read and execute these rules strictly.
+
+---
+
+## 🛠️ Essential Project Commands
+
+- **Local Dev Server**: `npm run dev`
+- **Build Production**: `npm run build`
+- **Lint/Format Check**: `npm run lint`
+- **Run All Tests**: `npm test`
+- **Run Specific Test File**: `npm test -- <path_to_test>`
+
+---
+
+## ❌ Anti-Vibe-Coding Protocol (Strict Rules)
+To prevent buggy or half-written code, you must execute the following protocol for every feature or complex change:
+
+### 1. The Clarification Phase
+If the user's instructions are even slightly ambiguous, or if key design details (such as API payloads, error states, or UX behaviors) are missing:
+*   **Stop immediately**.
+*   Ask **at least 2 clarifying questions** to resolve the ambiguity before writing code.
+
+### 2. The Test-First Design (TDD-Lite)
+Before writing any implementation code:
+*   Identify or write the test file/scenarios (e.g. Jest unit tests or Playwright E2E steps).
+*   Document exactly how you will verify your changes under `docs/04_Tester/test_plan.md`.
+
+### 3. No Code Placeholders
+*   Writing partial functions, stub methods, or comments like `// TODO: implement later` is **strictly forbidden**.
+*   All code generated must be complete, production-ready, and fully functional.
+
+### 4. Code Preservation
+*   Keep existing code comments, docstrings, and styling intact unless explicitly told to rewrite them.
+
+---
+
+## 📁 Obsidian & Vault Integration
+*   The `docs/` folder is an Obsidian Vault.
+*   **Active Tasks**: You must keep `docs/03_Developer/task_board.md` synchronized with your current progress.
+*   **Memory Bank**: When you encounter a major bug or config issue, document the root cause and solution in `docs/05_Memory/lessons_learned.md`.
+
+---
+
+## 🎨 Code Conventions & Design Style
+*   **Language**: Modern JavaScript (ES6+) or TypeScript as specified by the workspace.
+*   **Style**: Modular, functional design pattern. Keep functions small (under 40 lines).
+*   **Styles (CSS)**: Vanilla CSS with custom design systems. Keep styles modular and centered in `index.css` or component files.
+*   **Git Commits**: Conventional Commits style (e.g., `feat(auth): ...`, `fix(api): ...`).

@@ -1,0 +1,50 @@
+# --- AI Context Compiler Output ---
+ai_context_merged.md
+
+# --- Obsidian User-Specific Configuration ---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/backlinks
+.obsidian/recent-files-*.json
+
+# --- OS-Specific Files ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- IDEs and Text Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Development / Node Dependencies (For Future Setup) ---
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Build Outputs ---
+dist/
+build/
+out/
+.temp/
+.cache/
+
+# --- Environment Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
