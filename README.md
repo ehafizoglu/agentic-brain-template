@@ -43,38 +43,38 @@ Simply drag-and-drop or upload this file into your AI chat window.
 ## 📁 Directory Architecture
 
 ```
-├── CLAUDE.md                         # Global AI Rules & Commands (Matt Pocock Style)
-├── .cursorrules                      # Rule configurations for Cursor/Windsurf
-├── docs/                             # Obsidian Documentation Vault
-│   ├── 00_Core/
-│   │   ├── Project_Hub.md            # Map of Content (MOC) Dashboard
-│   │   └── ADRs/                     # Architectural Decision Records ledger
-│   ├── 01_Analyst/
-│   │   └── business_requirements.md  # Vision, Scope, Features, User Stories
-│   ├── 02_Architect/
-│   │   ├── system_architecture.md    # Tech Stack, Database (Mermaid), API contracts
-│   │   ├── security_guidelines.md    # OWASP & CWE secure coding guidelines
-│   │   ├── design_principles.md      # SOLID, DRY/KISS, layered architecture rules
-│   │   └── engineering_principles.md # Centralized error handler, JSON logging, db performance
-│   ├── 03_Developer/
-│   │   ├── development_guide.md      # Conventions, setup, folder rules
-│   │   └── task_board.md             # Active Kanban task board
-│   ├── 04_Tester/
-│   │   └── test_plan.md              # Gherkin Test cases, QA strategy, Bug logs
-│   ├── 05_Memory/
-│   │   ├── lessons_learned.md        # AI memory of resolved bugs, technical quirks
-│   │   └── active_context.md         # Brief status summary for quick prompts
-│   ├── 06_Product_Manager/
-│   │   ├── product_strategy.md       # Target segments, UVP, competitor analysis
-│   │   └── product_roadmap.md        # Milestones, release checklist, KPIs
-│   ├── 07_DevOps/
-│   │   └── deployment_guide.md       # Docker configuration, CI/CD pipeline setup
-│   └── 08_UI_UX/
-│       └── design_system.md          # Colors (HSL), typography scales, CSS tokens
-├── scripts/
-│   ├── init_project.py               # Project initialization bootstrapper
-│   └── bundle_ai_context.py          # AI context compilation script
-└── src/                              # Your application source code folder
+├── 📄 CLAUDE.md                         # Global AI Rules & Commands (Matt Pocock Style)
+├── 📄 .cursorrules                      # Rule configurations for Cursor/Windsurf
+├── 📂 docs/                             # Obsidian Documentation Vault
+│   ├── ⚪ 00_Core/                      # Core configuration and ADRs
+│   │   ├── 📄 Project_Hub.md            # Map of Content (MOC) Dashboard
+│   │   └── 📂 ADRs/                     # Architectural Decision Records ledger
+│   ├── 🔵 01_Analyst/                   # Business analyst requirements
+│   │   └── 📄 business_requirements.md  # Vision, Scope, Features, User Stories
+│   ├── 🟠 02_Architect/                 # Solution architect guidelines
+│   │   ├── 📄 system_architecture.md    # Tech Stack, Database (Mermaid), API contracts
+│   │   ├── 📄 security_guidelines.md    # OWASP & CWE secure coding guidelines
+│   │   ├── 📄 design_principles.md      # SOLID, DRY/KISS, layered architecture rules
+│   │   └── 📄 engineering_principles.md # Centralized error handler, JSON logging, db performance
+│   ├── 🟢 03_Developer/                 # Developer setup and task board
+│   │   ├── 📄 development_guide.md      # Conventions, setup, folder rules
+│   │   └── 📋 task_board.md             # Active Kanban task board
+│   ├── 🟣 04_Tester/                    # Quality assurance and testing
+│   │   └── 📄 test_plan.md              # Gherkin Test cases, QA strategy, Bug logs
+│   ├── 🧠 05_Memory/                    # Project memory bank and sprint context
+│   │   ├── 📄 lessons_learned.md        # AI memory of resolved bugs, technical quirks
+│   │   └── 📄 active_context.md         # Brief status summary for quick prompts
+│   ├── 🟡 06_Product_Manager/           # Product strategy and milestones
+│   │   ├── 📄 product_strategy.md       # Target segments, UVP, competitor analysis
+│   │   └── 📄 product_roadmap.md        # Milestones, release checklist, KPIs
+│   ├── 🔴 07_DevOps/                    # Infrastructure and deployment setup
+│   │   └── 📄 deployment_guide.md       # Docker configuration, CI/CD pipeline setup
+│   └── 🎨 08_UI_UX/                     # Design systems and UI styling
+│       └── 📄 design_system.md          # Colors (HSL), typography scales, CSS tokens
+├── 🛠️ scripts/                          # Utility scripts
+│   ├── 📄 init_project.py               # Project initialization bootstrapper
+│   └── 📄 bundle_ai_context.py          # AI context compilation script
+└── 📁 src/                              # Your application source code folder
 ```
 
 ---
