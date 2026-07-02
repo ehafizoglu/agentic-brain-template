@@ -43,6 +43,15 @@ Before writing any implementation code:
 ### 7. Engineering & System Principles
 *   All runtime changes must comply with the operational standards defined in `docs/02_Architect/engineering_principles.md`. Enforce centralized error middleware, use structured JSON logging with correlation trace IDs, index key query columns, and implement Redis caching policies.
 
+### 8. Product Strategy Compliance
+*   Any code changes introducing new features or modifying user flows must align with the release phases and gates defined in `docs/06_Product_Manager/product_roadmap.md`.
+
+### 9. UI & UX Styling Compliance
+*   All frontend CSS styles, HSL color schemes, layouts, and typography variables must match the tokens defined in `docs/08_UI_UX/design_system.md`.
+
+### 10. Deployment & Infrastructure
+*   Any Docker, pipeline, or environment configuration modifications must strictly comply with the guidelines defined in `docs/07_DevOps/deployment_guide.md`.
+
 ---
 
 ## 📁 Obsidian & Vault Integration

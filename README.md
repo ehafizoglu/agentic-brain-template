@@ -61,9 +61,16 @@ Simply drag-and-drop or upload this file into your AI chat window.
 │   │   └── task_board.md             # Active Kanban task board
 │   ├── 04_Tester/
 │   │   └── test_plan.md              # Gherkin Test cases, QA strategy, Bug logs
-│   └── 05_Memory/
-│       ├── lessons_learned.md        # AI memory of resolved bugs, technical quirks
-│       └── active_context.md         # Brief status summary for quick prompts
+│   ├── 05_Memory/
+│   │   ├── lessons_learned.md        # AI memory of resolved bugs, technical quirks
+│   │   └── active_context.md         # Brief status summary for quick prompts
+│   ├── 06_Product_Manager/
+│   │   ├── product_strategy.md       # Target segments, UVP, competitor analysis
+│   │   └── product_roadmap.md        # Milestones, release checklist, KPIs
+│   ├── 07_DevOps/
+│   │   └── deployment_guide.md       # Docker configuration, CI/CD pipeline setup
+│   └── 08_UI_UX/
+│       └── design_system.md          # Colors (HSL), typography scales, CSS tokens
 ├── scripts/
 │   ├── init_project.py               # Project initialization bootstrapper
 │   └── bundle_ai_context.py          # AI context compilation script

@@ -25,11 +25,15 @@ Welcome to the central command hub of **PROJECT_NAME**. This workspace is struct
 
 | Role | Key Document | Description | Status |
 | :--- | :--- | :--- | :--- |
+| **🎯 Product** | [[product_strategy]] | Competitor matrices, product market fit, KPIs | `🔴 Not Started` |
+| **🗺️ Roadmap** | [[product_roadmap]] | Strategic milestone roadmap & release gates | `🔴 Not Started` |
 | **🕵️ Analyst** | [[business_requirements]] | Scope, goals, user stories, Moscow priorities | `🔴 Not Started` |
 | **📐 Architect** | [[system_architecture]] | Tech stack, database schemas (Mermaid), APIs | `🔴 Not Started` |
 | **💻 Developer** | [[development_guide]] | Setup, naming rules, folder conventions | `🔴 Not Started` |
 | **📋 Developer Board** | [[task_board]] | Active task board / Kanban checklist | `🔴 Not Started` |
 | **🧪 Tester** | [[test_plan]] | QA strategy, Gherkin scenarios, bug logs | `🔴 Not Started` |
+| **🎨 UI/UX Design** | [[design_system]] | Layout tokens, colors, typography, styles | `🔴 Not Started` |
+| **⚙️ DevOps** | [[deployment_guide]] | Environments, Docker setup, CI/CD pipelines | `🔴 Not Started` |
 
 ---
 

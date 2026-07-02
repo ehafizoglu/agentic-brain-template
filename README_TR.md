@@ -61,9 +61,16 @@ Oluşan bu dosyayı yapay zekanın mesaj kutusuna sürükleyip bırakmanız yete
 │   │   └── task_board.md             # Aktif İş Takip Tahtası (Kanban)
 │   ├── 04_Tester/
 │   │   └── test_plan.md              # Gherkin Testleri, QA Stratejisi, Bug Log
-│   └── 05_Memory/
-│       ├── lessons_learned.md        # Çözülen zor hatalar, platform ve kütüphane ipuçları
-│       └── active_context.md         # O anki çalışma odağının özet kartı
+│   ├── 05_Memory/
+│   │   ├── lessons_learned.md        # Çözülen zor hatalar, platform ve kütüphane ipuçları
+│   │   └── active_context.md         # O anki çalışma odağının özet kartı
+│   ├── 06_Product_Manager/
+│   │   ├── product_strategy.md       # Pazar uyumu, UVP, rakip analizi
+│   │   └── product_roadmap.md        # Miltaşları, yayınlama kontrol listesi, KPI'lar
+│   ├── 07_DevOps/
+│   │   └── deployment_guide.md       # Docker kurulumu, CI/CD boru hattı ayarları
+│   └── 08_UI_UX/
+│       └── design_system.md          # Renkler (HSL), tipografi kuralları, CSS tokenları
 ├── scripts/
 │   ├── init_project.py               # Proje kurulum başlatıcısı
 │   └── bundle_ai_context.py          # AI bağlam derleme betiği

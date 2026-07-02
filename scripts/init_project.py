@@ -32,6 +32,10 @@ def main():
         "docs/04_Tester/test_plan.md",
         "docs/05_Memory/lessons_learned.md",
         "docs/05_Memory/active_context.md",
+        "docs/06_Product_Manager/product_strategy.md",
+        "docs/06_Product_Manager/product_roadmap.md",
+        "docs/07_DevOps/deployment_guide.md",
+        "docs/08_UI_UX/design_system.md",
         "docs/.system_docs/walkthrough.md",
         "scripts/bundle_ai_context.py"
     ]
