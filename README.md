@@ -54,7 +54,8 @@ Simply drag-and-drop or upload this file into your AI chat window.
 │   ├── 02_Architect/
 │   │   ├── system_architecture.md    # Tech Stack, Database (Mermaid), API contracts
 │   │   ├── security_guidelines.md    # OWASP & CWE secure coding guidelines
-│   │   └── design_and_engineering_principles.md # Coding patterns, error handler, logging rules
+│   │   ├── design_principles.md      # SOLID, DRY/KISS, layered architecture rules
+│   │   └── engineering_principles.md # Centralized error handler, JSON logging, db performance
 │   ├── 03_Developer/
 │   │   ├── development_guide.md      # Conventions, setup, folder rules
 │   │   └── task_board.md             # Active Kanban task board

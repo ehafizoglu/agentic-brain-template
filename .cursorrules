@@ -37,8 +37,11 @@ Before writing any implementation code:
 ### 5. Security & OWASP Compliance
 *   All code must strictly comply with the secure coding rules defined in `docs/02_Architect/security_guidelines.md`. Parameterize all database queries, sanitize user input on the server, and never commit secrets or expose stack traces to the client.
 
-### 6. Design & Engineering Principles
-*   All code changes must strictly adhere to the patterns defined in `docs/02_Architect/design_and_engineering_principles.md`. Enforce layer separation, use structured JSON logging with trace IDs, index DB queries, and implement standardized centralized error handling.
+### 6. Design Principles
+*   All code changes must strictly adhere to the structural and coding patterns defined in `docs/02_Architect/design_principles.md`. Enforce SOLID guidelines, keep code DRY and KISS, and maintain clear separation between Routes, Controllers, Services, and Repositories.
+
+### 7. Engineering & System Principles
+*   All runtime changes must comply with the operational standards defined in `docs/02_Architect/engineering_principles.md`. Enforce centralized error middleware, use structured JSON logging with correlation trace IDs, index key query columns, and implement Redis caching policies.
 
 ---
 
