@@ -25,6 +25,7 @@ Welcome to the central command hub of **PROJECT_NAME**. This workspace is struct
 
 | Role | Key Document | Description | Status |
 | :--- | :--- | :--- | :--- |
+| **🧠 Ideation & Think** | [[office_hours]] | Brainstorming sessions, trade-offs, edge cases | `🔴 Not Started` |
 | **🎯 Product** | [[product_strategy]] | Competitor matrices, product market fit, KPIs | `🔴 Not Started` |
 | **🗺️ Roadmap** | [[product_roadmap]] | Strategic milestone roadmap & release gates | `🔴 Not Started` |
 | **🕵️ Analyst** | [[business_requirements]] | Scope, goals, user stories, Moscow priorities | `🔴 Not Started` |
@@ -41,6 +42,7 @@ Welcome to the central command hub of **PROJECT_NAME**. This workspace is struct
 
 *   **Architectural Decisions**: [[ADR-000-Template]] – Log of technical decisions.
 *   **AI Agent Persona (SOUL)**: [[SOUL]] – Cognitive constitution, behavioral blueprints, and ethical guardrails.
+*   **Office Hours Ledger**: [[office_hours]] – Brainstorming logs and technology trade-off evaluations.
 *   **Secure Coding Guidelines**: [[security_guidelines]] – OWASP & CWE secure coding compliance rules.
 *   **Design Principles**: [[design_principles]] – SOLID, DRY/KISS, and layered architecture conventions.
 *   **Engineering & System Principles**: [[engineering_principles]] – Standards for error handling, structured logging, database scaling, and caching.

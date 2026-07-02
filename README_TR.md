@@ -51,7 +51,8 @@ Oluşan bu dosyayı yapay zekanın mesaj kutusuna sürükleyip bırakmanız yete
 │   │   ├── 📄 SOUL.md                   # Yapay zeka anayasası ve kişilik rehberi
 │   │   └── 📂 ADRs/                     # Mimari Karar Defteri (ADR Ledger)
 │   ├── 📘 01_Analyst/                   # İş analisti gereksinimleri
-│   │   └── 📄 business_requirements.md  # Kapsam, Moscow Öncelikleri, Kullanıcı Hikayeleri
+│   │   ├── 📄 business_requirements.md  # Kapsam, Moscow Öncelikleri, Kullanıcı Hikayeleri
+│   │   └── 📄 office_hours.md           # Beyin fırtınası seansları, risk analizi, kararlar
 │   ├── 📙 02_Architect/                 # Çözüm mimarı yönergeleri
 │   │   ├── 📄 system_architecture.md    # Teknoloji Seçimleri, DB (Mermaid), API taslakları
 │   │   ├── 📄 security_guidelines.md    # OWASP & CWE güvenli kodlama yönergeleri

@@ -51,7 +51,8 @@ Simply drag-and-drop or upload this file into your AI chat window.
 │   │   ├── 📄 SOUL.md                   # AI Agent persona constitution & guardrails
 │   │   └── 📂 ADRs/                     # Architectural Decision Records ledger
 │   ├── 📘 01_Analyst/                   # Business analyst requirements
-│   │   └── 📄 business_requirements.md  # Vision, Scope, Features, User Stories
+│   │   ├── 📄 business_requirements.md  # Vision, Scope, Features, User Stories
+│   │   └── 📄 office_hours.md           # Brainstorming sessions, trade-offs, edge cases
 │   ├── 📙 02_Architect/                 # Solution architect guidelines
 │   │   ├── 📄 system_architecture.md    # Tech Stack, Database (Mermaid), API contracts
 │   │   ├── 📄 security_guidelines.md    # OWASP & CWE secure coding guidelines

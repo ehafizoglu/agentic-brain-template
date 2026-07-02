@@ -24,6 +24,7 @@ def main():
         "docs/00_Core/Project_Hub.md",
         "docs/00_Core/SOUL.md",
         "docs/01_Analyst/business_requirements.md",
+        "docs/01_Analyst/office_hours.md",
         "docs/02_Architect/system_architecture.md",
         "docs/02_Architect/security_guidelines.md",
         "docs/02_Architect/design_principles.md",

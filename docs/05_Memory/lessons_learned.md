@@ -40,3 +40,14 @@ This file contains the collective memory of what worked, what failed, and the so
 *Record code structures that improved efficiency.*
 
 - **Modular Context Feeding**: Only supply the target AI with files relevant to its task (e.g., just `business_requirements.md` when designing a feature) to preserve system context windows and save token cost.
+
+---
+
+## 🔁 4. Post-Feature Reflection Ledger (Reflect / Post-Mortem)
+*At the end of a sprint or major feature delivery, complete this template to lock process improvements into the system memory.*
+
+### 🗓️ Reflect: Project ABF Multi-Role Evolution - 2026-07-02
+*   **What Went Well?**: Successfully decoupled design vs. engineering, added PM/DevOps/UI-UX roles, and resolved UTF-8 PowerShell encodings.
+*   **What Went Wrong?**: We initially merged design and engineering principles which caused cluttered instructions. 
+*   **Process Improvement**: From now on, keep role guidelines strictly isolated and atomic, linking them to a central MOC.
+
