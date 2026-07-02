@@ -46,30 +46,30 @@ Oluşan bu dosyayı yapay zekanın mesaj kutusuna sürükleyip bırakmanız yete
 ├── 📄 CLAUDE.md                         # Global AI Kuralları ve Komutları (Matt Pocock Stili)
 ├── 📄 .cursorrules                      # Cursor/Windsurf editör yapay zekası kuralları
 ├── 📂 docs/                             # Obsidian Dokümantasyon Kasası (Vault)
-│   ├── ⚪ 00_Core/                      # Core yapılandırma ve ADR'ler
+│   ├── 📁 ⬜ 00_Core/                      # Core yapılandırma ve ADR'ler
 │   │   ├── 📄 Project_Hub.md            # Ana Bağlantı Haritası (MOC Dashboard)
 │   │   └── 📂 ADRs/                     # Mimari Karar Defteri (ADR Ledger)
-│   ├── 🔵 01_Analyst/                   # İş analisti gereksinimleri
+│   ├── 📁 🟦 01_Analyst/                   # İş analisti gereksinimleri
 │   │   └── 📄 business_requirements.md  # Kapsam, Moscow Öncelikleri, Kullanıcı Hikayeleri
-│   ├── 🟠 02_Architect/                 # Çözüm mimarı yönergeleri
+│   ├── 📁 🟧 02_Architect/                 # Çözüm mimarı yönergeleri
 │   │   ├── 📄 system_architecture.md    # Teknoloji Seçimleri, DB (Mermaid), API taslakları
 │   │   ├── 📄 security_guidelines.md    # OWASP & CWE güvenli kodlama yönergeleri
 │   │   ├── 📄 design_principles.md      # SOLID, DRY/KISS, temiz kod standartları
 │   │   └── 📄 engineering_principles.md # Hata middleware'i, trace-id loglama, önbellekleme
-│   ├── 🟢 03_Developer/                 # Geliştirici kurulumları ve iş takip tahtası
+│   ├── 📁 🟩 03_Developer/                 # Geliştirici kurulumları ve iş takip tahtası
 │   │   ├── 📄 development_guide.md      # Standartlar, Setup, İsimlendirme Kuralları
 │   │   └── 📋 task_board.md             # Aktif İş Takip Tahtası (Kanban)
-│   ├── 🟣 04_Tester/                    # Kalite güvence ve test
+│   ├── 📁 🟪 04_Tester/                    # Kalite güvence ve test
 │   │   └── 📄 test_plan.md              # Gherkin Testleri, QA Stratejisi, Bug Log
-│   ├── 🧠 05_Memory/                    # Proje hafıza odası ve sprint bağlamı
+│   ├── 📁 ⬛ 05_Memory/                    # Proje hafıza odası ve sprint bağlamı
 │   │   ├── 📄 lessons_learned.md        # Çözülen zor hatalar, platform ve kütüphane ipuçları
 │   │   └── 📄 active_context.md         # O anki çalışma odağının özet kartı
-│   ├── 🟡 06_Product_Manager/           # Ürün yönetimi strateji ve yol haritası
+│   ├── 📁 🟨 06_Product_Manager/           # Ürün yönetimi strateji ve yol haritası
 │   │   ├── 📄 product_strategy.md       # Pazar uyumu, UVP, rakip analizi
 │   │   └── 📄 product_roadmap.md        # Miltaşları, yayınlama kontrol listesi, KPI'lar
-│   ├── 🔴 07_DevOps/                    # Altyapı ve dağıtım kurulumları
+│   ├── 📁 🟥 07_DevOps/                    # Altyapı ve dağıtım kurulumları
 │   │   └── 📄 deployment_guide.md       # Docker kurulumu, CI/CD boru hattı ayarları
-│   └── 🎨 08_UI_UX/                     # Tasarım sistemleri ve UI kodları
+│   └── 📁 🟪 08_UI_UX/                     # Tasarım sistemleri ve UI kodları
 │       └── 📄 design_system.md          # Renkler (HSL), tipografi kuralları, CSS tokenları
 ├── 🛠️ scripts/                          # Yardımcı betikler klasörü
 │   ├── 📄 init_project.py               # Proje kurulum başlatıcısı
