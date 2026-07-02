@@ -34,6 +34,9 @@ Before writing any implementation code:
 ### 4. Code Preservation
 *   Keep existing code comments, docstrings, and styling intact unless explicitly told to rewrite them.
 
+### 5. Security & OWASP Compliance
+*   All code must strictly comply with the secure coding rules defined in `docs/02_Architect/security_guidelines.md`. Parameterize all database queries, sanitize user input on the server, and never commit secrets or expose stack traces to the client.
+
 ---
 
 ## 📁 Obsidian & Vault Integration

@@ -52,7 +52,8 @@ Oluşan bu dosyayı yapay zekanın mesaj kutusuna sürükleyip bırakmanız yete
 │   ├── 01_Analyst/
 │   │   └── business_requirements.md  # Kapsam, Moscow Öncelikleri, Kullanıcı Hikayeleri
 │   ├── 02_Architect/
-│   │   └── system_architecture.md    # Teknoloji Seçimleri, DB (Mermaid), API taslakları
+│   │   ├── system_architecture.md    # Teknoloji Seçimleri, DB (Mermaid), API taslakları
+│   │   └── security_guidelines.md    # OWASP & CWE güvenli kodlama yönergeleri
 │   ├── 03_Developer/
 │   │   ├── development_guide.md      # Standartlar, Setup, İsimlendirme Kuralları
 │   │   └── task_board.md             # Aktif İş Takip Tahtası (Kanban)

@@ -36,6 +36,7 @@ Welcome to the central command hub of **PROJECT_NAME**. This workspace is struct
 ## 🧠 Brain Vault & ADR Ledger
 
 *   **Architectural Decisions**: [[ADR-000-Template]] – Log of technical decisions.
+*   **Secure Coding Guidelines**: [[security_guidelines]] – OWASP & CWE secure coding compliance rules.
 *   **Memory Bank**: [[lessons_learned]] – Root causes of bugs, fixes, and lessons learned.
 *   **Active Context**: [[active_context]] – A short summary of the current state of work.
 
