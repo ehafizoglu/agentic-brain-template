@@ -53,7 +53,8 @@ Oluşan bu dosyayı yapay zekanın mesaj kutusuna sürükleyip bırakmanız yete
 │   │   └── business_requirements.md  # Kapsam, Moscow Öncelikleri, Kullanıcı Hikayeleri
 │   ├── 02_Architect/
 │   │   ├── system_architecture.md    # Teknoloji Seçimleri, DB (Mermaid), API taslakları
-│   │   └── security_guidelines.md    # OWASP & CWE güvenli kodlama yönergeleri
+│   │   ├── security_guidelines.md    # OWASP & CWE güvenli kodlama yönergeleri
+│   │   └── design_and_engineering_principles.md # Tasarım desenleri, hata middleware'i, log kuralları
 │   ├── 03_Developer/
 │   │   ├── development_guide.md      # Standartlar, Setup, İsimlendirme Kuralları
 │   │   └── task_board.md             # Aktif İş Takip Tahtası (Kanban)

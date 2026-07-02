@@ -37,6 +37,7 @@ Welcome to the central command hub of **PROJECT_NAME**. This workspace is struct
 
 *   **Architectural Decisions**: [[ADR-000-Template]] – Log of technical decisions.
 *   **Secure Coding Guidelines**: [[security_guidelines]] – OWASP & CWE secure coding compliance rules.
+*   **Design & Engineering Principles**: [[design_and_engineering_principles]] – Standards for coding patterns, error handling, logging, and performance.
 *   **Memory Bank**: [[lessons_learned]] – Root causes of bugs, fixes, and lessons learned.
 *   **Active Context**: [[active_context]] – A short summary of the current state of work.
 
